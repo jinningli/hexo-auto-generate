@@ -8,13 +8,13 @@ sys.setdefaultencoding('utf8')
 rootdir = os.getcwd()
 
 def hexoCalling():
-    print ("\n\n--------------- Calling Hexo Contributor ---------------\n\n")
+    print ("\n\n--------------- Calling Hexo Contributor ---------------\n")
     os.chdir(rootdir)
     os.system('hexo clean')
     os.system('hexo generate')
 
 def insertRealIndex():
-    print ("\n\n--------------- Insert Homepage ---------------\n\n")
+    print ("\n\n--------------- Insert Homepage ---------------\n")
     publicdir = rootdir + '/' + 'public'
     os.system('mv ' + publicdir + '/' + 'index.html ' + publicdir + '/' + 'blog.html')
     for root, dirs, files in os.walk(rootdir + '/' + 'HomePage'):
@@ -32,7 +32,7 @@ def insertRealIndex():
 
 
 def MoveToGithubDir():
-    print ("\n\n--------------- Moving To Github Directory ---------------\n\n")
+    print ("\n\n--------------- Moving To Github Directory ---------------\n")
     githubdir = rootdir + '/' + 'jinningli.github.io'
 
     for root, dirs, files in os.walk(rootdir + '/' + 'public'):
@@ -50,14 +50,17 @@ def MoveToGithubDir():
 
 
 def pushToGithub():
-    print ("\n\n--------------- Pushing To Github Directory ---------------\n\n")
+    print ("\n\n--------------- Pushing To Github Directory ---------------\n")
+    s = raw_input("Pushing to jinningli.github.io? (y/n)\n")
+    if s == "n" or s == "N":
+        return
     githubdir = rootdir + '/' + 'jinningli.github.io'
     os.chdir(githubdir)
-    print('git add .')
+    print('> git add .')
     os.system('git add .')
-    print('git commit -m \"Updated, AutoCommit at ' + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + '\"')
+    print('> git commit -m \"Updated, AutoCommit at ' + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + '\"')
     os.system('git commit -m \"Updated, AutoCommit at ' + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + '\"')
-    print('git push')
+    print('> git push')
     os.system('git push')
 
 
@@ -65,5 +68,4 @@ def pushToGithub():
 hexoCalling()
 insertRealIndex()
 MoveToGithubDir()
-# pushToGithub()
-
+pushToGithub()
