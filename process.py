@@ -35,6 +35,20 @@ def MoveToGithubDir():
     print ("\n\n--------------- Moving To Github Directory ---------------\n")
     githubdir = rootdir + '/' + 'jinningli.github.io'
 
+    for root, dirs, files in os.walk(githubdir):
+        for file in files:
+            if file == '.DS_Store':
+                continue
+            print ('Delete ' + root + '/' + file)
+            os.system('rm ' + root + '/' + file)
+        for dir in dirs:
+            if dir == '.git':
+                continue
+            print ('Delete Directory ' + root + '/' + dir)
+            os.system('rm -r ' + root + '/' + dir)
+        break
+
+
     for root, dirs, files in os.walk(rootdir + '/' + 'public'):
         for file in files:
             if file == '.DS_Store':
