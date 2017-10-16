@@ -52,7 +52,7 @@ def MoveToGithubDir():
 def pushToGithub():
     print ("\n\n--------------- Pushing To Github Directory ---------------\n")
     s = raw_input("Pushing to jinningli.github.io? (y/n)\n")
-    if s == "n" or s == "N":
+    if not (s == "y" or s == "Y"):
         return
     githubdir = rootdir + '/' + 'jinningli.github.io'
     os.chdir(githubdir)
