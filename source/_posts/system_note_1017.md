@@ -1,5 +1,5 @@
 ---
-title: System Note
+title: Memory Management in Linux
 date: 2017-10-17 14:00:22
 tags:
   - Notes
@@ -8,7 +8,6 @@ tags:
 categories: Notes
 thumbnail:
 ---
-# System Notes
 ## Memory in Linux
 ### Page Allocation
 Linux uses the **Buddy algorithm** to effectively allocate and deallocate blocks of pages.
@@ -59,3 +58,6 @@ Whenever a page is read from a memory mapped file, for example when it needs to 
 If it is possible, Linux will initiate a read of the next page in the file. This single page read ahead means that if the process is accessing the pages in the file serially, the next page will be waiting in memory for the process.
 
 Over time the page cache grows as images are read and executed. Pages will be removed from the cache as they are no longer needed, say as an image is no longer being used by any process. As Linux uses memory it can start to run low on physical pages. In this case Linux will reduce the size of the page cache.
+
+### Reference
+<a href="http://www.tldp.org/LDP/tlk/">The Linux Kernel</a>

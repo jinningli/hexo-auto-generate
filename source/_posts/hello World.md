@@ -1,10 +1,8 @@
 ---
 title: Hello World!
 tags:
-  - Hello World!
-  - First Essay
-  - Establishment of this blog
-categories: essay
+  - Hello World
+categories: Essay
 date: 2017-10-16 15:25:00
 updated: 2017-10-16 15:25:00
 thumbnail:
