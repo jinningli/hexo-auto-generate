@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://docsify.js.org">
-    <img alt="Jinning Li's website" src="https://jinningli.github.io/favicon.png">
+  <a href="https://jinningli.github.io">
+    <img alt="Jinning Li's website" src="https://jinningli.github.io/favicon.png" width = "300">
   </a>
 </p>
 <p align="center">
