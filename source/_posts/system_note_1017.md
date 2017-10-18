@@ -2,9 +2,10 @@
 title: Memory Management in Linux
 date: 2017-10-17 14:00:22
 tags:
-  - Notes
   - English
   - Operate System
+  - Memory
+  - Linux
 categories: Notes
 thumbnail:
 ---

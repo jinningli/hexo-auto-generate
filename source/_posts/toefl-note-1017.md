@@ -3,7 +3,6 @@ title: TOEFL Note
 date: 2017-10-17 11:00:22
 tags:
   - TOEFL
-  - Notes
   - English
 categories: Notes
 thumbnail: /assets/toelf_note_1017.jpeg

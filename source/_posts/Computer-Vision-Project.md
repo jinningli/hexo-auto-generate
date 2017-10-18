@@ -1,11 +1,12 @@
 ---
-title: Computer Vision Project
+title: Project - Computer Vision
 date: 2017-10-17 19:48:50
 tags:
 - Computer Vision
 - Deep Learning
 - CS348
 - Coursework
+- English
 categories: Research
 ---
 # 2017.10.17
@@ -18,6 +19,8 @@ A Painting AI based on Cascaded Refinment Network
 The PPT illustrates our scheme:
 
 <iframe src="../files/Computer Vision.pdf" style="width:718px; height:700px;" frameborder="0"></iframe>
+
+<a href="../files/Computer Vision.pdf">Download File</a>
 
 The final topic will be confirm in tomorrow's class.
 
