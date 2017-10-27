@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34b3f0fb-8f86-487a-b49f-9fad9e43d0e0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jinningli.github.io" afterPath="$PROJECT_DIR$/jinningli.github.io" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.json" afterPath="$PROJECT_DIR$/db.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/archives/2017/10/index.html" afterPath="$PROJECT_DIR$/public/archives/2017/10/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/archives/2017/index.html" afterPath="$PROJECT_DIR$/public/archives/2017/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/archives/Computer-Vision-Project.html" afterPath="$PROJECT_DIR$/public/archives/Computer-Vision-Project.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/archives/hello World.html" afterPath="$PROJECT_DIR$/public/archives/hello World.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/archives/index.html" afterPath="$PROJECT_DIR$/public/archives/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/archives/system_note_1017.html" afterPath="$PROJECT_DIR$/public/archives/system_note_1017.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/archives/toefl-note-1017.html" afterPath="$PROJECT_DIR$/public/archives/toefl-note-1017.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog.html" afterPath="$PROJECT_DIR$/public/blog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/categories/Notes/index.html" afterPath="$PROJECT_DIR$/public/categories/Notes/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/categories/Research/index.html" afterPath="$PROJECT_DIR$/public/categories/Research/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/categories/essay/index.html" afterPath="$PROJECT_DIR$/public/categories/essay/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/creativecommons.html" afterPath="$PROJECT_DIR$/public/creativecommons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/search.xml" afterPath="$PROJECT_DIR$/public/search.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tags.html" afterPath="$PROJECT_DIR$/public/tags.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tags/CS348/index.html" afterPath="$PROJECT_DIR$/public/tags/CS348/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tags/Computer-Vision/index.html" afterPath="$PROJECT_DIR$/public/tags/Computer-Vision/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tags/Coursework/index.html" afterPath="$PROJECT_DIR$/public/tags/Coursework/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tags/Deep-Learning/index.html" afterPath="$PROJECT_DIR$/public/tags/Deep-Learning/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tags/English/index.html" afterPath="$PROJECT_DIR$/public/tags/English/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tags/Hello-World/index.html" afterPath="$PROJECT_DIR$/public/tags/Hello-World/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tags/Notes/index.html" afterPath="$PROJECT_DIR$/public/tags/Notes/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tags/Operate-System/index.html" afterPath="$PROJECT_DIR$/public/tags/Operate-System/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tags/TOEFL/index.html" afterPath="$PROJECT_DIR$/public/tags/TOEFL/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/timeline.html" afterPath="$PROJECT_DIR$/public/timeline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/Computer-Vision-Project.md" afterPath="$PROJECT_DIR$/source/_posts/Computer-Vision-Project.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/hello World.md" afterPath="$PROJECT_DIR$/source/_posts/hello World.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/system_note_1017.md" afterPath="$PROJECT_DIR$/source/_posts/system_note_1017.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/toefl-note-1017.md" afterPath="$PROJECT_DIR$/source/_posts/toefl-note-1017.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,7 +17,20 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="process.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/process.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="57" column="48" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,8 +70,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -349,7 +331,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26752505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -385,8 +367,21 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/process.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="48" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
