@@ -7,8 +7,9 @@ tinify.key = "07kVTh8oGbNFNHn4Fb0XU-t_ncAlJkMq"
 # tinify.proxy = "http://user:pass@192.168.0.1:8080"
 reload(sys)
 sys.setdefaultencoding('utf8')
-
 rootdir = os.getcwd()
+compresswidth = 800
+thumbnailwidth = 256
 
 def hexoCalling():
     print ("\n\n--------------- Calling Hexo Contributor ---------------\n")
@@ -77,11 +78,11 @@ def compressMoveImg():
 
             source = tinify.from_file(root + '/' + file)
             print ('Resizing ' + root + '/' + file + ' to assets...')
-            resized = source.resize(method = "scale", width = 800)
+            resized = source.resize(method = "scale", width = compresswidth)
             resized.to_file(compressedimgdir + '/' + file)
             os.system('cp ' + compressedimgdir + '/' + file + ' ' + compressedimgdir_bak + '/' + file)
             print ('Resizing ' + root + '/' + file + ' to thumbnails...')
-            reresize = source.resize(method = "scale", width = 256)
+            reresize = source.resize(method = "scale", width = thumbnailwidth)
             reresize.to_file(thumbnaildir + '/' + file)
             os.system('cp ' + thumbnaildir + '/' + file + ' ' + thumbnaildir_bak + '/' + file)
             print ('Baking File: ' + file)

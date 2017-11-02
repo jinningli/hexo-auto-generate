@@ -45,15 +45,14 @@ It is so amazing!!
 ### The paper
 The method of the paper is:
 
-1. Use the VGG-19 network to process the initial picture, noted by $\mathbf{p}$, and the painting, noted by $\mathbf{a}$, then at each layer, the nerwork will have some feature maps corresponding to $\mathbf{p}$ and $\mathbf{a}$.
+>Use the VGG-19 network to process the initial picture, noted by $\mathbf{p}$, and the painting, noted by $\mathbf{a}$, then at each layer, the nerwork will have some feature maps corresponding to $\mathbf{p}$ and $\mathbf{a}$.
 
-2. Input a noise picture $\mathbf{x}$ to the network, also, $\mathbf{x}$ will also have some featuremaps at every layers.
+>Input a noise picture $\mathbf{x}$ to the network, also, $\mathbf{x}$ will also have some featuremaps at every layers.
 
-3. Define a loss function between $\mathbf{x}$ and $\mathbf{p}$, called content loss. And a loss function between $\mathbf{x}$ and $\mathbf{a}$, called style loss.
-Then, the author define a compound loss function:
+>Define a loss function between $\mathbf{x}$ and $\mathbf{p}$, called content loss. And a loss function between $\mathbf{x}$ and $\mathbf{a}$, called style loss.Then, the author define a compound loss function:
 
 $$L_{total}(\mathbf{p}, \mathbf{a}, \mathbf{x})=\alpha L_{content}(\mathbf{x}, \mathbf{p}) + \beta L_{style}(\mathbf{x}, \mathbf{a})$$
 
-4. Using the optimization method to maximize the $L_{total}$, and with this process, fix the noise picture $\mathbf{x}$. Then, the noise picture will become the finally result.
+>Using the optimization method to maximize the $L_{total}$, and with this process, fix the noise picture $\mathbf{x}$. Then, the noise picture will become the finally result.
 
 We can actually change the ratio between $\alpha$ and $\beta$ to change the ratio of content and style.

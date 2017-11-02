@@ -94,7 +94,7 @@ kramed:
   breaks: true
   smartLists: true
   smartypants: true
-  
+
 # feed:
 #     type: atom
 #     path: atom.xml

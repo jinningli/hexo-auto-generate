@@ -17,3 +17,8 @@ categories: Notes
 Object detection is just a bounding box, but segmentation will consider the shape, color, etc.
 
 segmentation to make semantic partition.
+# 11.1
+- naive: fully connected CRF
+- CNN
+- classification-> is a class? / which class?
+- deconvolution network
