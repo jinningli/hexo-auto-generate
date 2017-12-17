@@ -3,11 +3,11 @@ title: Memory Management in Linux
 date: 2017-10-17 14:00:22
 tags:
   - English
-  - Operate System
+  - OS
   - Memory
   - Linux
 categories: Notes
-thumbnail:
+thunbnail: /assets/free-area.gif
 ---
 ## Memory in Linux
 ### Page Allocation
@@ -17,7 +17,7 @@ The page allocation code attempts to allocate a block of one or more physical pa
 
 The allocation algorithm first searches for blocks of pages of the size requested. It follows the chain of free pages that is queued on the list element of the free_area data structure. If no blocks of pages of the requested size are free, blocks of the next size (which is twice that of the size requested) are looked for. This process continues until all of the free_area has been searched or until a block of pages has been found. If the block of pages found is larger than that requested it must be broken down until there is a block of the right size. Because the blocks are each a power of 2 pages big then this breaking down process is easy as you simply break the blocks in half. The free blocks are queued on the appropriate queue and the allocated block of pages is returned to the caller.
 
-![free-area](/assets/free-area.gif)
+![](/assets/free-area.gif)
 Figure 3.4: The free_area data structure
 
 > 4 means 4, 5, 6, 7 is free, size = 4 page

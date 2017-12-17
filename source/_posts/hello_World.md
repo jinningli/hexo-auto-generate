@@ -4,8 +4,7 @@ tags:
   - Hello World
 categories: Essay
 date: 2017-10-16 15:25:00
-updated: 2017-10-18 20:25:00
-thumbnail:
+thumbnail: img/d.jpg
 ---
 # Hello World!
 My Website has successfully constructed!
