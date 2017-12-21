@@ -7,7 +7,7 @@ tags:
   - Memory
   - Linux
 categories: Notes
-thunbnail: /assets/free-area.gif
+thumbnail: /assets/free-area.gif
 ---
 ## Memory in Linux
 ### Page Allocation

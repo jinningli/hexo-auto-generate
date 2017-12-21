@@ -31,9 +31,9 @@
         
         <tags>
             
-            <tag> English </tag>
-            
             <tag> Paper </tag>
+            
+            <tag> English </tag>
             
             <tag> Publication </tag>
             
@@ -53,6 +53,11 @@
 <h2 id="info.">Info.</h2>
 <p>Tianxiang Gao, Weiming Bao, Jinning Li, Xiaofeng Gao, Boyuan Kong, Yan Tang, Guihai Chen, Xuan Li. DancingLines: An Analytical Scheme to Depict Cross-Platform Event Popularity. In ICDE, 2018.</p>
 <p>This paper has been submitted to ICDE 2018 and under review.</p>
+<p>Poster: <img src="/assets/dancinglineposter.jpg" alt="dancinglineposter"></p>
+<!-- Poster:
+<iframe src="../files/dancinglineposter.pdf" style="width:718px; height:700px;" frameborder="0"></iframe>
+
+<a href="../files/dancinglineposter.pdf">Download File</a> -->
 ]]></content>
       
         <categories>
@@ -64,11 +69,11 @@
         
         <tags>
             
-            <tag> English </tag>
-            
             <tag> ICDE2018 </tag>
             
             <tag> Paper </tag>
+            
+            <tag> English </tag>
             
             <tag> Publication </tag>
             
@@ -109,9 +114,9 @@
         
         <tags>
             
-            <tag> Computer Vision </tag>
-            
             <tag> English </tag>
+            
+            <tag> Computer Vision </tag>
             
             <tag> Pose Estimation </tag>
             
@@ -169,13 +174,13 @@
         
         <tags>
             
+            <tag> English </tag>
+            
             <tag> Computer Vision </tag>
             
             <tag> Segmentation </tag>
             
             <tag> Notes </tag>
-            
-            <tag> English </tag>
             
         </tags>
         
@@ -231,9 +236,9 @@
         
         <tags>
             
-            <tag> Computer Vision </tag>
-            
             <tag> English </tag>
+            
+            <tag> Computer Vision </tag>
             
             <tag> Deep Learning </tag>
             

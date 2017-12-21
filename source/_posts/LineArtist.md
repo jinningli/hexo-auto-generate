@@ -8,6 +8,7 @@ tags:
 categories: Paper
 date: 2017-12-05 16:52:00
 thumbnail: /assets/1366x768-2.jpg
+top: true
 ---
 # ABSTRACT
 Drawing a beautiful painting is a dream of many people since childhood. In this paper, we propose a novel scheme LINE ARTIST to synthesize artistic style paintings with free- hand sketch images, leveraging the power of deep learning and advanced algorithm.

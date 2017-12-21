@@ -8,6 +8,7 @@ tags:
 categories: Paper
 date: 2017-11-22 20:17:00
 thumbnail: /assets/dancingline.png
+top: true
 ---
 # ABSTRACT
 Nowadays, events usually burst and are propagated online through multiple modern media like social networks and search engines. There exists various research discussing the event dissemination trends on individual medium, while few studies focus on event popularity analysis from a cross-platform perspective. Challenges come from the vast diversity of events and media, limited access to aligned datasets across different media and the great deal of noise in the datasets.
@@ -20,3 +21,11 @@ Experimental results on eighteen real-world event datasets from an influential s
 Tianxiang Gao, Weiming Bao, Jinning Li, Xiaofeng Gao, Boyuan Kong, Yan Tang, Guihai Chen, Xuan Li. DancingLines: An Analytical Scheme to Depict Cross-Platform Event Popularity. In ICDE, 2018.
 
 This paper has been submitted to ICDE 2018 and under review.
+
+Poster:
+![dancinglineposter](/assets/dancinglineposter.jpg)
+
+<!-- Poster:
+<iframe src="../files/dancinglineposter.pdf" style="width:718px; height:700px;" frameborder="0"></iframe>
+
+<a href="../files/dancinglineposter.pdf">Download File</a> -->
