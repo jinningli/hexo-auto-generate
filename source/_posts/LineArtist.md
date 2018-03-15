@@ -1,14 +1,14 @@
 ---
 title: LINE ARTIST, A Multi-style Sketch to Painting Synthesis Scheme
 tags:
-  - WACV2018
+  - ECCV2018
   - Paper
   - English
   - Publication
 categories: Paper
 date: 2018-1-13 16:52:00
 thumbnail: /assets/1366x768-2.jpg
-top: true
+top: True
 ---
 # LINE ARTIST: A Multi-style Sketch to Painting Synthesis Scheme.
 

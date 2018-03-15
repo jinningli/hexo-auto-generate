@@ -8,7 +8,7 @@ tags:
 categories: Paper
 date: 2017-11-22 20:17:00
 thumbnail: /assets/dancingline.png
-top: true
+top: True
 ---
 # ABSTRACT
 Nowadays, events usually burst and are propagated online through multiple modern media like social networks and search engines. There exists various research discussing the event dissemination trends on individual medium, while few studies focus on event popularity analysis from a cross-platform perspective. Challenges come from the vast diversity of events and media, limited access to aligned datasets across different media and the great deal of noise in the datasets.
