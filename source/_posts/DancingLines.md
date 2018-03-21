@@ -1,7 +1,7 @@
 ---
 title: DANCINGLINES, An Analytical Scheme to Depict Cross-Platform Event Popularity
 tags:
-  - ICDE2018
+  - DASFAA2018
   - Paper
   - English
   - Publication
@@ -18,14 +18,17 @@ In this paper, we design DancingLines, an innovative scheme that captures and qu
 Experimental results on eighteen real-world event datasets from an influential social network and a popular search engine validate the effectiveness and applicability of our scheme. DancingLines is demonstrated to possess broad application potentials for discovering knowledge of various aspects related to events and different media.
 
 ## Info.
-Tianxiang Gao, Weiming Bao, Jinning Li, Xiaofeng Gao, Boyuan Kong, Yan Tang, Guihai Chen, Xuan Li. DancingLines: An Analytical Scheme to Depict Cross-Platform Event Popularity. In ICDE, 2018.
+Tianxiang Gao, Weiming Bao, Jinning Li, Xiaofeng Gao, Boyuan Kong, Yan Tang, Guihai Chen, Xuan Li. DancingLines: An Analytical Scheme to Depict Cross-Platform Event Popularity. In DASFAA, 2018.
 
-This paper has been submitted to ICDE 2018 and under review.
+This paper has been submitted to DASFAAA 2018 and under review and pre-printed on Arxiv.
+
+<a href="https://arxiv.org/abs/1712.08550">[Download Paper]</a>
 
 Poster:
 ![dancinglineposter](/assets/dancinglineposter.jpg)
 
-<!-- Poster:
+<!--
+Poster:
 <iframe src="../files/dancinglineposter.pdf" style="width:718px; height:700px;" frameborder="0"></iframe>
 
 <a href="../files/dancinglineposter.pdf">Download File</a> -->

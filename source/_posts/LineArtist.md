@@ -18,7 +18,7 @@ What you have to do is to draw a sketch, take a photo of it and give it to our p
 
 **Paper: Jinning Li and Siqi Liu, Mengyao Cao. LINE ARTIST: A Multi-style Sketch to Painting Synthesis Scheme.**
 
-<a href="../files/LineArtist.pdf">[Download Paper]</a>
+<a href="https://arxiv.org/abs/1803.06647">[Download Paper]</a>
 
 ![](/assets/firstPage.png)
 
